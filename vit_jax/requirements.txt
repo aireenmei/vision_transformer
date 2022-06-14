@@ -5,7 +5,7 @@ einops>=0.3.0
 flax==0.5.0
 
 jax==0.3.13
-jaxlib==0.3.10+cuda11.cudnn82  # Make sure CUDA version matches the base image.
+jaxlib==0.3.10
 jax[tpu]>=0.2.16
 --find-links https://storage.googleapis.com/jax-releases/jax_releases.html
 --find-links https://storage.googleapis.com/jax-releases/libtpu_releases.html
